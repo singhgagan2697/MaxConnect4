@@ -1,0 +1,11 @@
+Gaganjeet Singh
+CSE 4308 - 002
+Assignment 4
+
+Eval function explanation
+
+For this program, my eval function for depth-limited search is very simple.
+It takes in the current GameBoard as a parameter, and then returns the current score
+for the max player, which was initialized at the beginning of minimax. 
+This is a good enough eval function since max will want the highest score, while 
+min will want the lowest max score. 
